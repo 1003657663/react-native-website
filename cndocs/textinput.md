@@ -80,7 +80,7 @@ export default class UselessTextInputMultiline extends Component {
 ```
 
 `TextInput`在安卓上默认有一个底边框，同时会有一些padding。如果要想使其看起来和iOS上尽量一致，则需要设置`padding: 0`，同时设置`underlineColorAndroid="transparent"`来去掉底边框，
-如果安卓上对TextInput的父级View设置backgroundColor但是TextInput背景色一直是白色额，那么也可以尝试设置这个属性
+如果安卓上对TextInput的父级View设置backgroundColor但是TextInput背景色一直是白色，那么也可以尝试设置这个属性
 
 又，在安卓上如果设置`multiline = {true}`，文本默认会垂直居中，可设置`textAlignVertical: 'top'`样式来使其居顶显示。
 
